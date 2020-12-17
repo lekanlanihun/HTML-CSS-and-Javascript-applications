@@ -56,10 +56,19 @@
   </ul>
 </nav>
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+
+</div>
 
 <div class="row">
   <div class="column side">
     
+
   </div>
   
   <div class="column middle">
@@ -91,5 +100,14 @@ Office Address: 55 Kajola Bustop, opposite transformer, UI / Agbowo-express road
   <p>Footer</p>
 </div>
   
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 </body>
 </html>
