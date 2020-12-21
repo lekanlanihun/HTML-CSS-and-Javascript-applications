@@ -5,12 +5,14 @@
 
 body {
   margin: 0;
+background-image: url("ai_image4.jpg");
+
 }
 
 /* Style the header */
 .header {
   background-color: #f1f1f1;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -160,8 +162,8 @@ nav ul {
 
 /* Style the footer */
 .footer {
-  background-color: #f1f1f1;
-  padding: 10px;
+  background-color: black;
+  padding: 0.2px;
   text-align: center;
 }
 </style>
